@@ -1,0 +1,22 @@
+{
+  "project_id": "",
+  "string_mode": "auto",
+  "preserve_string_length": true,
+  "create_or_replace": false,
+  "enable_partitioning": false,
+  "enable_clustering": false,
+  "partition_expiration_days": null,
+  "debug_mode": false,
+  "drop_partition_table_before_create": true,
+  "description": {
+    "project_id": "BigQuery 프로젝트 ID",
+    "string_mode": "문자열 변환 모드 (auto 또는 string_only)",
+    "preserve_string_length": "STRING 타입에 길이 정보 포함 여부",
+    "create_or_replace": "CREATE OR REPLACE TABLE 사용 여부 (true: CREATE OR REPLACE, false: CREATE)",
+    "enable_partitioning": "파티셔닝 기능 활성화 여부 (true: 활성화, false: 비활성화)",
+    "enable_clustering": "클러스터링 기능 활성화 여부 (true: 활성화, false: 비활성화)",
+    "partition_expiration_days": "파티션 만료 일수 (null: 만료 없음, 숫자: 일수)",
+    "debug_mode": "디버그 출력 활성화 여부 (true: 활성화, false: 비활성화)",
+    "drop_partition_table_before_create": "파티션 테이블 생성 전 DROP 실행 여부 (true: DROP 후 CREATE, false: CREATE OR REPLACE만 사용)"
+  }
+}

@@ -1,0 +1,11 @@
+# Oracle to BigQuery Migration Tool - Windows 포터블 버전 빌드 의존성
+
+# 빌드에 필요한 패키지들 (빌드 환경에서만 필요)
+requests>=2.25.0
+urllib3>=1.26.0
+
+# 포터블 버전에 포함될 패키지들은 build_windows_portable.py에서 자동으로 다운로드됩니다.
+# 다음 패키지들이 포터블 버전에 포함됩니다:
+# - PyYAML>=6.0
+# - click>=8.0.0
+# - typing-extensions>=4.0.0
